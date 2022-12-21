@@ -1,4 +1,4 @@
-module k6poc
+module github.com/fluk27/k6poc
 
 go 1.19
 
