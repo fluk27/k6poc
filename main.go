@@ -9,6 +9,6 @@ func init() {
 
 type Demo struct{}
 
-func (*Demo) Hello(name string) string {
+func (Demo) Hello(name string) string {
 	return "Hello " + name
 }
